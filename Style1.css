@@ -50,7 +50,7 @@ li a:hover {
 }
 
 .threeImages {
-    text-align: justify;
+    text-align: center;
 }
 
 .threeImages img {
@@ -69,21 +69,28 @@ li a:hover {
 }
 
 .columnP {
-    text-align:justify;
+    text-align: center;
+    column-count: 3;
+    column-gap: 15px;
+
 }
 
-.columnP {
-    column-count:3;
-    column-gap: 15px;
+#alignP {
+    text-align: justify;
 }
+
 
 #moveUp {
     margin-top: 0px;
 }
 
+#traveler{
+    text-align: center;
+}
 .solgaard {
 
-    display: inline-block;
+    display: block;
+    /* float: right; */
     padding: 12px 24px;
     border-radius: 6px;
     border: 0;
@@ -94,4 +101,44 @@ li a:hover {
     text-transform: uppercase;
     background: #615f8b;
     color: #fff;
+}
+
+.photos {
+    text-align: center;
+}
+
+.photos img {
+    display: inline-block;
+    width: auto;
+    height: 255px;
+
+}
+
+
+.photos:after {    
+    content: '';
+    display: inline-block;
+    width:100%;
+
+}
+
+.linkP{
+    text-align: center;
+
+}
+
+.linkP img {
+    display: inline-block;
+    width: auto;
+    height: 255px;
+
+}
+
+
+
+.linkP:after {    
+    content: '';
+    display: inline-block;
+    width:100%;
+
 }
